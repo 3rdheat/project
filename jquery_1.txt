@@ -1,0 +1,3 @@
+try: $("div.preview").children().removeAttr("style");
+
+or: $("div.preview").find("*").removeAttr("style"); to get grandchildren too.
